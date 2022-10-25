@@ -2,8 +2,6 @@
 
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-source "$CURRENT_DIR/helpers.sh"
-
 print_git_branch() {
 	# percentage displayed in the 2nd field of the 2nd row
     if ! __git_prompt_git rev-parse --git-dir &> /dev/null \

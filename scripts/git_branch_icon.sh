@@ -2,8 +2,6 @@
 
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-source "$CURRENT_DIR/helpers.sh"
-
 print_icon() {
     # If we are on a folder not tracked by git, get out.
     # Otherwise, check for hide-info at global and local repository level
